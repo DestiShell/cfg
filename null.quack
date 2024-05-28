@@ -31,7 +31,7 @@
       {
         "AirPlace": {
           "Range": 5.0,
-          "Render": "duck.client.setting.impl.Parent@72b35674",
+          "Render": "duck.client.setting.impl.Parent@1acf5f0e",
           "Swing": true,
           "Fill Color": [
             845427455,
@@ -95,7 +95,7 @@
           "DisableSwapOff": true,
           "Mode": "Nine",
           "SlowAnimation": true,
-          "SlowValue": 12,
+          "SlowValue": 5,
           "Keybind": [
             -1,
             false
@@ -338,7 +338,7 @@
           "ESP": "NurikZapen",
           "Sort": "LowestDistance",
           "LockTarget": true,
-          "Advanced": "duck.client.setting.impl.Parent@7c74a652",
+          "Advanced": "duck.client.setting.impl.Parent@6919bff6",
           "AimRange": 3.1,
           "RandomHitTiming": "Off",
           "PauseInInventory": true,
@@ -366,7 +366,7 @@
           "AttackBaseTime": 0.5,
           "AttackTickLimit": 11,
           "CritFallDistance": 0.0,
-          "Targets": "duck.client.setting.impl.Parent@784b3d04",
+          "Targets": "duck.client.setting.impl.Parent@79711194",
           "Players": true,
           "Mobs": true,
           "Animals": true,
@@ -769,7 +769,7 @@
       },
       {
         "AutoGApple": {
-          "UseDelay": 0,
+          "UseDelay": 73,
           "health": 10.39,
           "Absorption": false,
           "AutoTotemIntegration": true,
@@ -800,7 +800,7 @@
           "AutoDisable": true,
           "InstantLeave": true,
           "Command": "hub",
-          "Leave if": "duck.client.setting.impl.Parent@55a14d42",
+          "Leave if": "duck.client.setting.impl.Parent@885d425",
           "LowHp": false,
           "Totems": false,
           "TotemsCount": 2,
@@ -832,11 +832,11 @@
       },
       {
         "AutoSex": {
-          "Target Range": 5,
+          "Target Range": 3,
           "Sex Mode": "Active",
-          "Message Delay": 1,
+          "Message Delay": 4,
           "Keybind": [
-            -1,
+            74,
             false
           ],
           "Drawn": true,
@@ -921,13 +921,13 @@
             280,
             false
           ],
-          "Swap": "GappleShield",
+          "Swap": "GappleBall",
           "HP": 10.54,
           "ShieldGappleHp": 16.0,
           "CalcAbsorption": true,
           "StopMotion": false,
           "ResetAttackCooldown": false,
-          "Safety": "duck.client.setting.impl.Parent@cbe3792",
+          "Safety": "duck.client.setting.impl.Parent@2c473ccc",
           "HotbarFallback": false,
           "FallBackCalc": true,
           "OnElytra": true,
@@ -950,6 +950,23 @@
         }
       },
       {
+        "AutoTrader": {
+          "Buy": true,
+          "BuyItem": "apple",
+          "Sell": true,
+          "SellItem": "bread",
+          "Disable": "duck.client.setting.impl.Parent@5dcb7561",
+          "NoVillagers": true,
+          "NoItems": false,
+          "Keybind": [
+            -1,
+            false
+          ],
+          "Drawn": true,
+          "Enabled": false
+        }
+      },
+      {
         "AutoTrap": {
           "Target By": "Distance",
           "Place Timing": "Default",
@@ -966,14 +983,14 @@
           "Remove": false,
           "Break Mode": "Normal",
           "Anti Weakness": false,
-          "Blocks": "duck.client.setting.impl.Parent@2dbc881c",
+          "Blocks": "duck.client.setting.impl.Parent@23ef95f7",
           "Obsidian": true,
           "Anchor": false,
           "EnderChest": true,
           "Netherite": false,
           "Crying Obsidian": true,
           "Dirt": false,
-          "Pause": "duck.client.setting.impl.Parent@5d665326",
+          "Pause": "duck.client.setting.impl.Parent@5ed5953",
           "On Eat": false,
           "On Break": false,
           "Render": true,
@@ -1019,7 +1036,7 @@
           "Interact": "Strict",
           "PlaceMode": "Normal",
           "Rotate": "None",
-          "Render": "duck.client.setting.impl.Parent@2f2ce95",
+          "Render": "duck.client.setting.impl.Parent@1059b47e",
           "Render Mode": "Fade",
           "Render Fill Color": [
             -6974059,
@@ -1106,13 +1123,13 @@
         "Blocker": {
           "Place Per Tick": 1,
           "Delay": 0,
-          "Logic": "duck.client.setting.impl.Parent@7f0d6bfe",
+          "Logic": "duck.client.setting.impl.Parent@163fbb69",
           "Anti Cev": true,
           "Anti Civ": true,
           "Expand": true,
           "Anti TNT": false,
           "Anti Anchor": false,
-          "Detect": "duck.client.setting.impl.Parent@36b8e06b",
+          "Detect": "duck.client.setting.impl.Parent@49a0c474",
           "On Break Packet": true,
           "On Attack Block": false,
           "On Break": false,
@@ -1126,14 +1143,14 @@
           "Remove": false,
           "Break Mode": "Normal",
           "Anti Weakness": false,
-          "Blocks": "duck.client.setting.impl.Parent@59286af9",
+          "Blocks": "duck.client.setting.impl.Parent@26682bd2",
           "Obsidian": true,
           "Anchor": false,
           "EnderChest": true,
           "Netherite": false,
           "Crying Obsidian": true,
           "Dirt": false,
-          "Pause": "duck.client.setting.impl.Parent@4d3a912f",
+          "Pause": "duck.client.setting.impl.Parent@7bcf8125",
           "On Eat": false,
           "Render": true,
           "Render Mode": "All",
@@ -1166,7 +1183,7 @@
           "AllowShift": true,
           "Speed": 2.0,
           "YSpeed": 1.0,
-          "Advanced": "duck.client.setting.impl.Parent@59fc51ed",
+          "Advanced": "duck.client.setting.impl.Parent@104089c6",
           "GlideSpeed": 0.0,
           "ClickSlot": false,
           "Limit": true,
@@ -1198,7 +1215,7 @@
           "Scale": 0.01,
           "Minimize": false,
           "Delay": 5.0,
-          "Selection": "duck.client.setting.impl.Parent@28364901",
+          "Selection": "duck.client.setting.impl.Parent@5f8c7cde",
           "Bows": true,
           "EPearls": true,
           "XP": true,
@@ -1538,8 +1555,8 @@
         "Coords": {
           "NetherCoords": "On",
           "Position": [
-            0.008784773,
-            0.9660057
+            0.030743213,
+            0.9631728
           ],
           "Keybind": [
             -1,
@@ -1637,9 +1654,9 @@
       },
       {
         "DiscordRPC": {
-          "Picture": "Duck",
+          "Picture": "Custom",
           "ShowIP": true,
-          "StateMode": "Stats",
+          "StateMode": "Info",
           "State": "Sekynda__topka__popkap",
           "Nickname": false,
           "Keybind": [
@@ -1703,11 +1720,11 @@
           "Pearls": true,
           "DizorentRadius": true,
           "DizorentColor": [
-            -16722689,
-            true,
+            -33024,
+            false,
             0
           ],
-          "Box": "duck.client.setting.impl.Parent@32d3815c",
+          "Box": "duck.client.setting.impl.Parent@385dea46",
           "Players": true,
           "Friends": true,
           "Crystals": true,
@@ -1718,14 +1735,14 @@
           "Outline": true,
           "ColorMode": "SyncColor",
           "renderHealth": true,
-          "BoxColors": "duck.client.setting.impl.Parent@2bf9ddc0",
+          "BoxColors": "duck.client.setting.impl.Parent@3f1c82c1",
           "PlayersC": [
-            -54528,
+            -33024,
             false,
             0
           ],
           "FriendsC": [
-            -16711936,
+            -16711681,
             false,
             0
           ],
@@ -1977,11 +1994,11 @@
       },
       {
         "FakePlayer": {
-          "CopyInventory": false,
+          "CopyInventory": true,
           "Record": false,
           "Play": true,
-          "AutoTotem": false,
-          "Name": "Hell_Raider",
+          "AutoTotem": true,
+          "Name": "Нефар__вирус__вхзавхавх",
           "Keybind": [
             -1,
             false
@@ -2034,8 +2051,8 @@
       {
         "Fps": {
           "Position": [
-            0.029399354,
-            0.0594901
+            0.030746698,
+            0.059472058
           ],
           "Keybind": [
             -1,
@@ -2047,7 +2064,7 @@
       },
       {
         "FreeCam": {
-          "HSpeed": 0.45000005,
+          "HSpeed": 0.2,
           "VSpeed": 0.79,
           "Freeze": false,
           "Track": false,
@@ -2213,7 +2230,7 @@
           "Delay": 0,
           "Jump Disable": false,
           "Blocks": "All",
-          "Fill Holes": "duck.client.setting.impl.Parent@10b1826b",
+          "Fill Holes": "duck.client.setting.impl.Parent@2b86225d",
           "Self Fill": false,
           "Self Fill Mode": "Burrow",
           "Single": true,
@@ -2223,7 +2240,7 @@
           "Range To Target": 2.0,
           "Auto Disable": false,
           "Place Mode": "Packet",
-          "Render": "duck.client.setting.impl.Parent@ad5af3d",
+          "Render": "duck.client.setting.impl.Parent@1750c17f",
           "Render Mode": "All",
           "Animation Mode": "Fade",
           "Render Fill Color": [
@@ -2252,7 +2269,7 @@
           "Search FOV": 360,
           "Use Timer": false,
           "Timer Value": 1.0,
-          "Auto Disable": "duck.client.setting.impl.Parent@24a2065a",
+          "Auto Disable": "duck.client.setting.impl.Parent@40880609",
           "On Death": true,
           "In Hole": true,
           "No Holes": false,
@@ -2301,7 +2318,7 @@
           "ColorSpeed": 10,
           "Light": true,
           "Color": [
-            -33024,
+            -16711808,
             false,
             0
           ],
@@ -2326,17 +2343,17 @@
             0
           ],
           "BlurColor": [
-            -16773595,
+            -16777216,
             false,
             0
           ],
           "HudRound": 6.0,
           "Alpha": 0.74,
-          "Blend": 9.88,
-          "Outline": 1.04,
+          "Blend": 6.29,
+          "Outline": 0.0,
           "Glow": 1.0,
-          "BlurOpacity": 0.55,
-          "BlurStrength": 20.0,
+          "BlurOpacity": 0.1,
+          "BlurStrength": 27.5,
           "Keybind": [
             -1,
             false
@@ -2448,19 +2465,19 @@
       {
         "KeyBinds": {
           "OnColor": [
-            -14024449,
+            -11008,
             false,
             0
           ],
           "OffColor": [
-            -16723976,
+            -16711808,
             false,
             0
           ],
           "OnlyEnabled": false,
           "Position": [
-            0.0043108566,
-            0.27749982
+            0.005657874,
+            0.32304847
           ],
           "Keybind": [
             -1,
@@ -2495,6 +2512,20 @@
           "Position": [
             0.5,
             0.5
+          ],
+          "Keybind": [
+            -1,
+            false
+          ],
+          "Drawn": true,
+          "Enabled": false
+        }
+      },
+      {
+        "KillStats": {
+          "Position": [
+            0.030746713,
+            0.25778267
           ],
           "Keybind": [
             -1,
@@ -2641,15 +2672,15 @@
       {
         "MemoryHud": {
           "Position": [
-            0.029263206,
-            0.21779262
+            0.030746698,
+            0.21812072
           ],
           "Keybind": [
             -1,
             false
           ],
           "Drawn": true,
-          "Enabled": true
+          "Enabled": false
         }
       },
       {
@@ -2719,7 +2750,7 @@
       },
       {
         "NameProtect": {
-          "name": "мама_я_покакал",
+          "name": "Фанатка__домера",
           "Keybind": [
             -1,
             false
@@ -2949,7 +2980,7 @@
         "NoSlow": {
           "Mode": "NCP",
           "MainHand": true,
-          "Selection": "duck.client.setting.impl.Parent@41d0c8d3",
+          "Selection": "duck.client.setting.impl.Parent@1bd98e53",
           "Food": true,
           "Projectiles": true,
           "Shield": true,
@@ -3179,8 +3210,8 @@
       {
         "Ping": {
           "Position": [
-            0.029282458,
-            0.099153735
+            0.030746713,
+            0.09915011
           ],
           "Keybind": [
             -1,
@@ -3225,7 +3256,7 @@
           "Piston Type": "All",
           "Auto Swap": true,
           "Swing": true,
-          "Render": "duck.client.setting.impl.Parent@5d6eb858",
+          "Render": "duck.client.setting.impl.Parent@157d3bf",
           "Fill Color": [
             855572480,
             false,
@@ -3286,15 +3317,15 @@
         "Potions": {
           "Colored": false,
           "Position": [
-            0.5,
-            0.5
+            0.5611876,
+            0.062097784
           ],
           "Keybind": [
             -1,
             false
           ],
           "Drawn": true,
-          "Enabled": false
+          "Enabled": true
         }
       },
       {
@@ -3324,8 +3355,8 @@
             0
           ],
           "Position": [
-            0.7481556,
-            0.6629694
+            0.71693444,
+            0.6423632
           ],
           "Keybind": [
             -1,
@@ -3457,14 +3488,14 @@
           "Remove": false,
           "Break Mode": "Normal",
           "Anti Weakness": false,
-          "Blocks": "duck.client.setting.impl.Parent@4e41115f",
+          "Blocks": "duck.client.setting.impl.Parent@10a54597",
           "Obsidian": true,
           "Anchor": false,
           "EnderChest": true,
           "Netherite": false,
           "Crying Obsidian": true,
           "Dirt": false,
-          "Pause": "duck.client.setting.impl.Parent@910de14",
+          "Pause": "duck.client.setting.impl.Parent@47d9fac6",
           "On Eat": false,
           "On Break": false,
           "Render": true,
@@ -3491,7 +3522,7 @@
       },
       {
         "Shaders": {
-          "Select": "duck.client.setting.impl.Parent@21941b16",
+          "Select": "duck.client.setting.impl.Parent@78ac03a9",
           "Hands": true,
           "Players": true,
           "Self": true,
@@ -3512,7 +3543,7 @@
           "SmokeOctaves": 30,
           "FillAlpha": 255,
           "SmokeGlow": true,
-          "Colors": "duck.client.setting.impl.Parent@71e50e8b",
+          "Colors": "duck.client.setting.impl.Parent@5c2b646",
           "Outline": [
             -2013200640,
             false,
@@ -3633,7 +3664,7 @@
           "PlaceCrystal": true,
           "ResetOnSwitch": true,
           "BreakAttempts": 10,
-          "Packets": "duck.client.setting.impl.Parent@37683201",
+          "Packets": "duck.client.setting.impl.Parent@3f71d294",
           "Stop": true,
           "Abort": true,
           "Start": true,
@@ -3675,8 +3706,8 @@
           "BPS": false,
           "Average": false,
           "Position": [
-            0.029302053,
-            0.17843293
+            0.030725352,
+            0.17846972
           ],
           "Keybind": [
             -1,
@@ -3701,8 +3732,8 @@
       {
         "StaffBoard": {
           "Position": [
-            0.7102208,
-            0.032789167
+            0.711403,
+            0.033847816
           ],
           "Keybind": [
             -1,
@@ -3819,7 +3850,7 @@
           "Blocks/Place": 8,
           "Delay/Place": 3,
           "Center": "Disabled",
-          "Auto Disable": "duck.client.setting.impl.Parent@3887ba86",
+          "Auto Disable": "duck.client.setting.impl.Parent@37760076",
           "On Y Change": true,
           "On Tp": "None",
           "On Death": false,
@@ -3833,14 +3864,14 @@
           "Remove": false,
           "Break Mode": "Normal",
           "Anti Weakness": false,
-          "Blocks": "duck.client.setting.impl.Parent@39ca4a2b",
+          "Blocks": "duck.client.setting.impl.Parent@2fdfec7a",
           "Obsidian": true,
           "Anchor": false,
           "EnderChest": true,
           "Netherite": false,
           "Crying Obsidian": true,
           "Dirt": false,
-          "Pause": "duck.client.setting.impl.Parent@60829acf",
+          "Pause": "duck.client.setting.impl.Parent@3f3f0f41",
           "On Eat": false,
           "On Break": false,
           "Render": true,
@@ -3872,7 +3903,7 @@
           "Delay/Place": 3,
           "PlaceMode": "Normal",
           "Rotate": "None",
-          "Render": "duck.client.setting.impl.Parent@168c54e4",
+          "Render": "duck.client.setting.impl.Parent@eeb9f40",
           "RenderMode": "Fade",
           "Fill": [
             -6974059,
@@ -3897,8 +3928,8 @@
         "TPS": {
           "ExtraTPS": true,
           "Position": [
-            0.029267358,
-            0.13880837
+            0.030744335,
+            0.13881013
           ],
           "Keybind": [
             -1,
@@ -3929,7 +3960,7 @@
           "AnimationX": 0,
           "AnimationY": 0,
           "HP Mode": "Percentage",
-          "Image": "Anime",
+          "Image": "AssUp",
           "Mode": "Default",
           "Color1": [
             -16492289,
@@ -3944,8 +3975,8 @@
           "FunTimeHP": false,
           "Mini": false,
           "Position": [
-            0.53001934,
-            0.52037656
+            0.52415925,
+            0.4957784
           ],
           "Keybind": [
             -1,
@@ -3989,7 +4020,7 @@
       },
       {
         "Timer": {
-          "Mode": "NORMAL",
+          "Mode": "SMART",
           "Speed": 1.07,
           "ShiftTicks": 10,
           "addOnTheMove": 0.0,
@@ -4256,27 +4287,27 @@
           "positionMainX": 0.0,
           "positionMainY": 0.0,
           "positionMainZ": 0.0,
-          "MainHand": "duck.client.setting.impl.Parent@135a9f39",
-          "Rotation": "duck.client.setting.impl.Parent@782a146b",
+          "MainHand": "duck.client.setting.impl.Parent@9995b5b",
+          "Rotation": "duck.client.setting.impl.Parent@5975da2e",
           "rotationMainX": 0.0,
           "rotationMainY": 0.0,
           "rotationMainZ": 0.0,
-          "Animate": "duck.client.setting.impl.Parent@c0abd43",
+          "Animate": "duck.client.setting.impl.Parent@1ef79346",
           "animateMainX": false,
           "animateMainY": false,
           "animateMainZ": false,
           "speedAnimateMain": 1.0,
-          "OffHand": "duck.client.setting.impl.Parent@78d5f352",
-          "RotationOff": "duck.client.setting.impl.Parent@3fb10826",
+          "OffHand": "duck.client.setting.impl.Parent@4cb40e47",
+          "RotationOff": "duck.client.setting.impl.Parent@f34d709",
           "rotationOffX": 0.0,
           "rotationOffY": 0.0,
           "rotationOffZ": 0.0,
-          "AnimateOff": "duck.client.setting.impl.Parent@1790daf7",
+          "AnimateOff": "duck.client.setting.impl.Parent@7867d86b",
           "animateOffX": false,
           "animateOffY": false,
           "animateOffZ": false,
           "speedAnimateOff": 1.0,
-          "Eat": "duck.client.setting.impl.Parent@4ea99de3",
+          "Eat": "duck.client.setting.impl.Parent@5a280982",
           "EatX": 1.0,
           "EatY": 1.0,
           "Keybind": [
